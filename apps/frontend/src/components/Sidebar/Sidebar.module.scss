@@ -1,0 +1,15 @@
+
+    .sidebar-subitems {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 16px;
+            background-color: hsl(var(--app-foreground-300));
+            height: 100%;
+            width: 1px;
+        }
+    }
+
+  
